@@ -1,0 +1,420 @@
+Chatscript temporarily reverted to version 2.0 due to a dispute. Will update staus later.
+
+
+
+version 2.98
+1. %inputrejoinder added (means system is pending testing for a rejoinder on input)
+    whereas %rejoinder means a rejoinder has been set for current output.
+
+
+version 2.97
+1. more bug fixes
+
+
+version 2.96
+1. basically bug fixes.
+2. 2 version of LINUX exe released.. LinuxChatScript32Old compiled using the g++ script of LINUX
+    and LinuxChatScript32New which uses the make file in src and uses ev server 
+
+
+version 2.95
+1. bug fixes primarily
+2. makefile added for linux in src folder- stand there and do make server (which can be server or client as per usual)
+3. evserver code improves linux server performance (default using makefile)
+
+
+version 2.94
+1. flag "canonical" added to ^intersect()
+2. :retry accepts next input after the command
+3. volleycount of 0 forces cached user record to be dropped after writing.
+4. inputtopcs - list of topics referred to by user input volley
+5. major stability mark- passes regression test again.
+
+version 2.93
+1. various bugs fixed, much more stable release
+
+version 2.92
+1. hasgambits(topic  any)  returns fail if topic has no gambits of any kind (used or unused) - a reactor topic
+2. %rule= executing id of current topic, suitable for ^reuse
+3. ^Findwords(pattern) to find facts of dict words matching pattern.
+4 hasgambits(topic last) is last gambit unused still
+5. :return to exit system
+6. disable(RULE ~) for current rule
+7. unpackfact ref takes restrictions on which field to unpack if given
+
+version 2.91d
+1. :skip n
+2. ^hasallproperties()
+
+version 2.91c
+1. save=x  how many volleys before write out of user cache
+2. crash bug fixed on load of topics.
+3. cache  parameter removed
+
+version 2.91
+1. transient chatinput facts from user input
+2. addfactproperty and removefactproperty 
+3. :trim 16 for date usage map
+4.  x: gambit type along with GetTopicVolley(topic) 
+5. responseLabel(n)
+6. flushoutput
+7. tablemacro
+8. printgesture
+9. arguments to intersectfacts and querytopics and intersect changed
+10. additional abilities of keywordtopics and gambittopics
+11. timeinfo(number) => ascii timeinfo
+12.  timedifference(value "") gets float of value
+13.  topickeys(topic) 
+14  :findwords(word)
+15:  wordnet multiple words like "game_show" are not merged in input stream. remain individual words.  
+
+version 2.9
+1. ^intersect
+2. :who
+3: %foreign
+4: :abstract why
+5. gambits and responders can now be intermixed.
+6: %why  ^responseWhy ^responseTopic ^responseIndex ^response ^responseQuestion
+7. ^cancel
+8. :overlappingkeys {topic}
+9.   !key in concept and topic
+10 :topicstats
+11: ^topiclist(@1)
+12: tables of 1 arg may put a lot of them on a line w/o commas
+13  a FAIL code to a loop terminates it but no longer suppresses pending output
+14: :nocomment
+15 ^intersect gets new 1st arg
+
+version 2.8
+1. :trim 13 (brain trim)
+2. ~topic added as concept for user naming a topic w/o ~
+3. ^$xxx to eval a variable in place and do something with its value (indirection)
+4. ^topics() for fact list of topics under topiclist verb
+5. :macros for list of user-defined macros
+6. embedded ~qwords as a system concept set.
+
+version 2.1
+0. fixed crash bugs on MAC using : commands.
+1. :trim codes 8-10
+2. ^retry(RULE,TOPIC,SENTENCE)
+
+
+version 2.7  -- documentation brought up to date with this release
+1. bug fix topic set rejoinder even if failcode result
+3. Log() reenabled.
+4. misaligned compiled word on text no longer reported as bug.
+5. %voice  (active or passive)
+6. :build xxx restart
+7: :facts renamed to :allfacts so a new :facts can display just user facts
+8: :hassystemflag (word flag) 
+9: tokenflags now also has AMBIGUOUS_POS and FAULTY_PARSE bits
+10:  query fromset can now be system or user, restricting facts checked
+11. ^command no longer requires authorization for executing commands.
+12. %fulltime and ^timediff(new old) returns seconds.
+13. flushtopics()
+14. $abstract and $postpass variables to perform callbacks- setcallback removed.
+
+
+version 2.6 INTERNAL RELEASE
+
+version 2.5
+1. GetTopicFlags(x)
+2. AUTOWHY
+3. :say
+4. poptopic(*) clears interesting topics stack
+5: :abstract spell
+
+version 2.4
+1. :noerase
+2  userFact=
+3. usercacheSize= usercache= ...  server speedups by caching user data
+4;  :switch
+5: ^idioms(tableverb)
+6: :test
+7:  () and (*) patterns not considered to be blocking to :verify
+8;  runtime: private command line option
+9: gambit option to keywordtopics
+10: :show why 1  :show input
+11  ^hasgambit(topicname)
+ 
+
+version 2.3
+1. SetCallBack(  PARSER  or ABSTRACT )
+2. partialmatching:  sa*ch matches sandwich
+
+version 2.2
+1. concept: ~myconcept NOUN ( ... )  to mark all entries as nouns or VERB or ADJECTIVE or ADVERB or IGNORESPELLING
+2. :sets word to easily see sets it belongs to for generalizing.
+1. Marked(~noun flooring)  now supported
+2. marking peeks inside of hypenated words, yielding:  light- and -colored
+3.  mark()  toggles betwen the unmarked(*) states being turned off or back on again
+4. output of '$val  dumps value without evaling it first
+5. print() function like preprint
+6. pos(integer n) for float to int if same
+
+version 2.1
+1. @1 += first(@0) now adds fact to set @1
+2. added @1 = Unduplicat(@0) to copy facts from set to set, removing duplicate instances.
+3. system distinguishs @1 += @0 (augment @1) from @1 = @0 (lose old content)
+4. fact set assignment cleaned up/unified to support: 
+   $$fact2 = createfact(I love you)
+   $$fact1 = createfact(I hate you)
+   @2 = $$fact2 
+   @2 += $$fact1  # add fact to set
+   @2 -= $$fact1  # remove fact from set
+
+   @0 = $$fact2
+   @1 = $$fact1
+   @1 += @0	  # add set to set (duplicates allowed)
+   @1 = @0
+   @1 -= $$fact2  # remove all instances of fact from set
+
+   @1 = $$fact2
+   @1 = $$fact1
+   @0 = $$fact1
+   @1 -= @0       # remove all instances of facts of given set from set
+5. AddProperties now also accepts a factset argument instead of word, allows you to set flags on all facts in set
+	generally MARK_FACT and MARK_FACT2 but can use most number values also
+	@1s marks the dictionary entry of subject, @1v, @1o do correspondings
+6. RemoveProperties added analogous to AddProperties
+7. removed ^countmember and expanded ^length() to do facts in a @set, top level members in a ~concept, characters in a word
+8.  added FACT_DUPLICATE property to allow repeated facts to be created
+9.  added ^reset(@factset) to reset linear access and ^next(@factset) to walk thru in order 1-n
+10. added ^findMarkedFact(subject verb mark) to scan out from all facts of subject, using verb as 
+	 propogation, using mark to detect a fact (MARKED_FACT or MARKED_FACT2) or object of a fact (MARKED_WORD) that has been marked
+11  added NO_IMPERATIVE and NO_VERB tokencontrol to avoid deciding start of "sentence" can be a verb
+12. Unmark (* _1) removes ALL ability to match words at the designated sentence location
+13.  .<_3 and .>_3 alignment operators
+14. pos(noun base irregular ) returns plural irregular noun if base not substring of it
+15 #IGNORE #ENDIGNORE
+16 pattern _8  tests if it exsits with a value or not
+17 NO_WITHIN tokencontrol
+18 warning:  ? not good for $test (a) ? ~determiner
+
+version 2.00
+1. added ~money and improved money tokenization and canonization in the system
+2. added DO_POSTAG and DO_PARSE and DO_NO_IMPERATIVE as tokenControl values for bots
+3. added :postrace command to watch postagging/parsing
+4. added dynamic query abilty, using _xx and $xxx variables as arguments for subject, verb, object
+	and '$$ and '~xxx mean dont expand the choice, while '_xxx still means orignal form
+5. can block conversion of & to and in script compile, by preceeding & with \
+6.  added lowercase and canonical to ^POS
+7 raised max function argument count to 19
+
+version 1.99	--- last version of 2011
+1. fixed SYSTEM command
+2. fixed token errors related to questions
+3. added |=  &=  ^=  to assignment 
+4. made responders allow more data
+
+
+
+Version 1.28
+1. MAC OS compiles server now
+2. TIME= command line option
+3. USERLOG NOUSERLOG SERVERLOG NOSERVERLOG
+4. LOGS subdirecotry added
+
+Version 1.27
+1. allow utf8 and support DO_UTF8_CONVERT to change some accented to normal ascii.
+2. renamed :undo to :retry
+3. added capitalize to ^pos()
+4. $crashmsg
+
+Version 1.26
+1. bug fixes for 64-bit linux and other crashes
+
+Version 1.25
+1. added ^hasProperty(word, bit)
+2. documented ~ as pattern word for current topic
+3. added %all
+4. altered :undo to take replacement sentence on same line
+
+Version 1.24
+1. added :debug to set internal debug flag
+2. added a couple of pdf papers about chatscript into documentation
+3. added :reset analogous to ^reset(USER)
+4. added xs xv xo to test sentence marks in inference system for part 3
+5. adding data to :help function to briefly describe most functions
+6. added :all to assist in debugging
+7: added :undo to retry user input with replacement
+8: documented the ?  option in pattern matching (advanced)
+
+Version 1.23
+1. system variable %userInput added
+2. automated pronoun handling supported along with improved pos tagging
+
+
+Version 1.22
+1. help now takes "function" or "variables"
+2. Pos tagging improved, migrating toward full parsing but not there yet
+3. linux server no longer busy-waits - Linux build now requires -lrt as well
+
+Version 1.21 
+bug fixes, more pos tagging  and doc added for ^match()
+
+
+Version 1.20
+1. improved POS tagging, with rules put into Livedata
+2. tables accept ... to mean fill in remaining arguments with *
+3. added :testpos to verify pos tagging and regress/postest.txt
+4. added :pos to display pos tagging and how it happened
+5. :word now can take a series of words to display
+6. tables now allow a short-entry to default missing tail entries
+7. :help lists all the : commands
+8. argument "sandbox" tells server to disallow access to OS from script
+9: revised various tables using verb exemplar to use more direct choices:
+	star  - for actors/actresses and the movies/tv in which they starred
+	write - for authors and the books/poems they wrote
+10: chatscript tutorial written by  Erel Segal
+
+Version 1.17
+1. fixed bugs in Linux server mode
+2. added optional "echo" to :source
+3. substitutes adds negation testing on the result arg
+4. ~introduction basic sample topic renamed ~introductions
+
+Version 1.16
+1. :prepare now takes all and none to mean set as mode for future
+2. revised memory usage--- Linux version was dying in malloc
+
+
+Version 1.15
+1. Added ^settopicflags()
+2. :topics added
+3. An output choice may now be [!$value ...] in addition to [$value ...]
+
+
+Version 1.14
+1. ^keywordtopics now also accepts topics labeled nostay
+2. ^mark allowed optional second argument, a match variable and optional 3rd argument, a match_variable
+3. ^unmark order of arguments flipped, and 2nd argument made optional
+4. script compiler now spell checks patterns and outputs and warns you about questionable words
+5: :build optional 2nd argument "nospell" to suppress spell checking and "output" to add output checking
+6. documented unipropogate query
+7. pos(snake noun 2) -> snakes
+
+Version 1.13
+1. revised autogeneration mechanism
+2. now accepting [] instead of () for topic and concept definitions
+3. manual revised to use [] instead of ()
+4. removed ~teenword (now considered ~adultword)
+5. handling of ~infinitive improved
+6. added :used to see what responders are used up in a topic
+7. :verify rule changed to :verify pattern
+
+Version 1.12
+1. added POS(noun,word,proper) to uppercase to proper name
+2. allowed to have global user variables from a :build commands
+3. added autogeneration of responders 
+
+
+Version 1.11
+1. fixed serious bug in script compiler
+
+
+Version 1.1
+1. added %rejoinder (indicates system has a rejoinder it can expect)
+2. clarified eraseure in esoterica
+3. added ^import and ^export to read and write fact files
+4. redefined factset decompositions (@1subject, @1object) and added  @1fact @1verb @1+ @1- @1all
+
+
+version 1.01
+1. stopped deleting the "to" in front of an infinitive.
+2. bug fix with repeat topic flag
+3. other bug fixes
+
+version 1.0
+1. supporting unique names for public servers (if user name comes in from webpage with . prefix).
+2. insuring all boolean system variables return "1"/defined and null/undefined
+3. removed $defaulttopic variable used by engine which caused a modification to the control script
+4. optional 2nd arg to reuse  allows it to skip over a responder that has been marked d
+5. added :bot to change bots on the fly
+6. table arguments allows to specify a designation that the entry is script by prepending ^ to a "xxx" table entry string. Eval() will execute it
+7. modified doublequoted string handling on output side.... normal strings display with their " ".
+   strings with \ in front no longer have any special meaning
+   strings with ^ in front mean output string w/o quotes as a format string
+8. added documentation section Esoterica and Fine Detail
+9. earlier optimization added introduced a mega serious bug which was reported and now fixed, screws up a lot.
+10. added ^nofail and revised control script to use it
+
+version 0.95
+1. bug fixes
+2. redescribed noerase so that gambits are always erased. It only controls responders.
+3. Continuation  renamed rejoinder
+
+
+version 0.94
+1. multiple copies of topics allowed for multiple-bot handling-- see WHICH BOT in documentation
+2. :abstract allowed a topic name argument
+3: added flag to mark object-pronouns to improve pos-tagging commands
+4. extended assignment syntax to allow any length of operations, so $var = 1 + 2 % 3 * 4 is now legal
+5. enhanced output of things like :testtopic and :testoutput to show variables changed as well.
+6. changed file format of user save data... any files in USERS folder you have should be removed.
+7. moved %token over to $token
+8. allowing #define constants as ordinary items in output 
+9. added %question
+10 moves ~qwords from script to engine
+
+version 0.93 This is considered a stable build and will remain as new builds arrive
+1. fixed bug crash on misspelled words and other crashes found by a massive regression test.
+2. added windows hardware exception trapping to server so it cant crash
+3. split ~singular and ~plural into: ~nounsingular, ~nounplural, ~verbsingular,~verbplural
+4. moved ~auxverb from script to engine
+
+
+version 0.92
+1. fixed bugs introduced by spellcheck, which destroyed the interjections system and some canonical forms
+2. documented the interjections system in the manual
+3. renamed concept set ~aux to ~auxverb
+4. added %token and changed the default to allow assignment to all %systemvars.
+
+
+version 0.91
+1. modified :revert to automatically redo your last input
+2. fixed serious bug in marking used responses
+
+
+Version 0.9
+0. added ^fact() and removed fact duplicates
+1. added :prepare and :postprocess and :testtopic and :real and :testouput
+2. added spell checking
+3. documented ^analyze and _0=#define for values of dictionarysystem.h
+4. bug fixes
+5. documented global macrovars ^$var and ^_0
+6. added pattern positioning @_2
+7. removes :noreact and %noreact
+8. :regresssub renamed :verifysub  :dummyinput renamed :fakereply   :writefacts renamed :facts
+9. upgraded POS analysis
+
+Version 0.8
+0. :shutdown added
+1. :verify upgraded with new ability
+2. LoebnerVS2008 fixed to compilable
+3. misc bug fixes
+4. added files for testing servers, better server logging, and writeup on using servers
+
+Version 0.7
+
+0. Internal representation for "refines" changed to use member verb
+1. Misc bug fixes, particularly to ^query and the \"xxx" construct
+2. added :variables
+
+
+Version 0.6
+
+0. misc bug fixes and improvements to :word and startup display data
+1. removed %bot  (redundant with $bot)
+2. added %server (server mode vs standalone mode)
+3. added ~unknownword (unrecognized input words)
+4. added $var? (can var content be found in sentence) and _9? (can match var be found in sentence)
+5. added :stats 
+6. added ^save(@setref true/false)
+7. added support for Windows server
+8. added overlay to run Loebner protocol (different project) under vs2010
+9. _var (match variables) restricted to _9 max
+10. :define documented
+11. added VS2008 build data
+
+Version 0.5 --- base line

@@ -1,0 +1,232 @@
+
+0.~adjectives (1155) 
+1.    ~cognition_adjectives (22) 
+2.        ~ability_adjectives (7) 
+3.            capable  competent  impossible  incapable  incompetent  possible  potential  
+2.        ~opinion_adjectives (6) 
+3.            beautiful  difficult  horrible  irrational  rational  silly  
+2.        ~permission_adjectives (9) 
+3.            dutiful  illegal  illicit  legal  licit  necessary  obligatory  required  unauthorized  
+1.    ~comparison_adjectives (1) 
+2.        similar  
+1.    ~intensifier_adjectives (2) 
+2.        heavy  outright  
+1.    ~physical_properties_adjectives (1110) 
+2.        ~age_adjectives (7) 
+3.            ancient  brand-new  fledgling  new  old  second_hand  young  
+2.        ~animation_adjectives (414) 
+3.            ~living_properties_adjectives (414) 
+4.                ~character_trait_adjectives (179) 
+5.                    able  accepting  adventurous  aggressive  ambitious  annoying  arrogant  articulate  athletic  awkward  
+5.                    boastful  bold  bossy  brave  bright  busy  calm  careful  careless  caring  
+5.                    cautious  cheerful  clever  clumsy  compassionate  complex  conceited  confident  considerate  cooperative  
+5.                    courageous  creative  curious  dainty  daring  dark  defiant  demanding  determined  devout  
+5.                    disagreeable  disgruntled  eager  efficient  embarrassed  energetic  excited  expert  fair  faithful  
+5.                    fancy  fighter  forgiving  free  friendly  frustrated  fun-loving  funny  generous  gentle  
+5.                    giving  gorgeous  gracious  grouchy  hard-working  helpful  honest  hopeful  humble  humorous  
+5.                    imaginative  impulsive  independent  intelligent  inventive  jealous  joyful  judgmental  keen  kind  
+5.                    knowledgeable  lazy  leader  light  light-hearted  likeable  lively  lovable  loving  loyal  
+5.                    manipulative  materialistic  mature  melancholy  merry  messy  mischievous  naive  neat  nervous  
+5.                    noisy  obnoxious  opinionated  organized  outgoing  Passive  patient  patriotic  perfectionist  personable  
+5.                    pitiful  plain  pleasant  pleasing  poor  popular  pretty  prim  proper  proud  
+5.                    questioning  quiet  radical  realistic  rebellious  reflective  relaxed  reliable  religious  reserved  
+5.                    respectful  responsible  reverent  rich  rigid  rude  sad  sarcastic  self-confident  self-conscious  
+5.                    selfish  sensible  sensitive  serious  short  shy  +silly  simple  simple-minded  smart  
+5.                    stable  strong  stubborn  studious  successful  tall  tantalizing  tender  tense  thoughtful  
+5.                    thrilling  timid  tireless  tolerant  tough  tricky  trusting  ugly  understanding  unhappy  
+5.                    unique  unlucky  unselfish  vain  warm  wild  willing  wise  witty  
+4.                ~constitution_adjectives (2) 
+5.                    +strong  weak  
+4.                ~gender_adjectives (4) 
+5.                    female  hermaphroditic  male  neuter  
+4.                ~health_adjectives (6) 
+5.                    alive  dead  dying  healthy  sickly  sleeping  
+4.                ~perception_adjectives (3) 
+5.                    fuzzy  invisible  visible  
+4.                ~psychology_adjectives (276) 
+5.                    abrasive  abrupt  abusive  adaptable  adorable  afraid  agreeable  alert  alluring  aloof  
+5.                    ambiguous  +ambitious  amused  angry  annoyed  anxious  +arrogant  ashamed  awful  bad  
+5.                    belligerent  bewildered  boorish  bored  boring  boundless  +brave  +bright  callous  +calm  
+5.                    +capable  +careless  charming  +cheerful  +clumsy  coherent  combative  comfortable  +confident  confused  
+5.                    +cooperative  +courageous  cowardly  crazy  credible  creepy  cruel  cultured  cynical  dangerous  
+5.                    dashing  dazzling  debonair  deceitful  decisive  decorous  defeated  defective  +defiant  delightful  
+5.                    demonic  depressed  deranged  detailed  +determined  diligent  +disagreeable  discreet  disillusioned  disturbed  
+5.                    domineering  dynamic  +eager  +efficient  elated  +embarrassed  eminent  enchanting  encouraging  endurable  
+5.                    +energetic  entertaining  enthusiastic  envious  erratic  evasive  evil  excellent  +excited  exclusive  
+5.                    exuberant  fabulous  faded  fain  +fair  +faithful  fanatical  fantastic  fearless  fierce  
+5.                    filthy  fine  finicky  flashy  flippant  foolish  forgetful  frank  frantic  fretful  
+5.                    +friendly  frightened  +funny  furtive  +generous  +gentle  glorious  good  greedy  grieving  
+5.                    +grouchy  gruesome  grumpy  guarded  gullible  happy  harmonious  +helpful  helpless  hesitant  
+5.                    hilarious  homeless  honorable  +horrible  hungry  hurt  ignorant  ill  impartial  industrious  
+5.                    instinctive  irresolute  +jealous  jittery  jolly  joyous  +kind  +knowledgeable  lacking  +lazy  
+5.                    level  +likeable  +lively  lonely  lovely  +loving  lucky  malicious  +materialistic  +mature  
+5.                    mean  modern  mysterious  +naive  nasty  naughty  +nervous  nice  +noisy  obedient  
+5.                    +obnoxious  outrageous  painstaking  panicky  pathetic  peaceful  perfect  placid  plausible  +pleasant  
+5.                    plucky  possessive  productive  protective  +proud  punctual  quarrelsome  +quiet  receptive  +reflective  
+5.                    relieved  repulsive  resolute  +responsible  rhetorical  righteous  romantic  ruthless  +sad  scary  
+5.                    secretive  sedate  seemly  selective  self-assured  +selfish  +sensitive  shrewd  +silly  sincere  
+5.                    skilful  slow  smiling  sneaky  snobbish  sore  spendthrift  splendid  squeamish  steadfast  
+5.                    stimulating  stingy  strange  +successful  succinct  sulky  tacky  talented  +tense  terrible  
+5.                    testy  thick-skinned  +thoughtful  thoughtless  threatening  thrifty  tight  +timid  tired  tiresome  
+5.                    +tough  troubled  truculent  trustworthy  typical  unbiased  undesirable  unsuitable  unsure  unusual  
+5.                    upbeat  upset  uptight  vague  vengeful  venomous  vigorous  vivacious  volatile  voracious  
+5.                    vulgar  +warm  wary  wasteful  +weak  weary  wicked  +willing  +wise  +witty  
+5.                    wonderful  worried  worthless  wretched  zany  zealous  
+4.                ~sensation_adjectives (1) 
+5.                    +hungry  
+4.                ~social_adjectives (4 / 2) 
+5.                    Catholic  dominant  
+5.                    ~communication_adjectives (2) 
+6.                        chatty  taciturn  
+2.        ~containment_adjectives (5) 
+3.            accessible  closed  inaccessible  open  packed  
+2.        ~density_adjectives (2) 
+3.            dense  sparse  
+2.        ~energy_adjectives (3) 
+3.            electric  magnetic  radioactive  
+2.        ~esthetic_adjectives (253) 
+3.            ~cleanliness_adjectives (3) 
+4.                clean  dirty  washed  
+3.            ~color_adjectives (250 / 1) 
+4.                transparent  
+4.                ~colors (250 / 1) 
+5.                    +transparent  
+5.                    ~black (8) 
+6.                        black  ebony  jet  licorice  melanic  morel  nigrine  piceous  
+5.                    ~blue (26) 
+6.                        aqua  aquamarine  azuline  azure  blue  celeste  cerulean  cobalt  cyaneous  indigo  
+6.                        mazarine  navy  pavonated  peacock  periwinkle  perse  porceline  royal  sapphire  sky  
+6.                        smalt  steel  teal  turquoise  ultramarine  watchet  
+5.                    ~brown (42) 
+6.                        almond  amber  badious  bronze  brown  brownish  brunette  brunneous  buff  burnet  
+6.                        catory  chocolate  cinnamon  coffee  copper  ferruginous  filemont  fuscous  ginger  hazel  
+6.                        honey  infuscate  khaki  mahogany  melichrous  nutmeg  rainbow  rubious  russet  rust  
+6.                        sandy  sepia  sienna  sinopia  sorrel  spadiceous  tan  taupe  terracotta  titian  
+6.                        umbra  walnut  
+5.                    ~gray (16) 
+6.                        ashen  cesious  cinerious  columbine  dove  gray  greige  grey  gridelin  griseous  
+6.                        hoary  liard  lovate  plumbeous  +steel  +taupe  
+5.                    ~green (26) 
+6.                        apple  caesious  celadon  celery  chartreuse  chlorochrous  corbeau  eau-de-nil  emerald  glaucous  
+6.                        green  kelly  lime  mint  olivaceous  olive  pistachio  porraceous  prasinous  sage  
+6.                        smaragdine  tilleul  virescent  virid  viridian  zinnober  
+5.                    ~metallic (11) 
+6.                        aeneous  argent  aurulent  brass  +bronze  chrysochlorous  +copper  gold  metallic  platinum  
+6.                        silver  
+5.                    ~orange (3) 
+6.                        auburn  jacinthe  orange  
+5.                    ~purple (20) 
+6.                        amaranthine  aubergine  claret  heliotrope  hyacinthine  ianthine  lavender  lilac  magenta  mauve  
+6.                        mulberry  orchid  plum  porphyrous  puce  purple  purpure  purpureal  rhodopsin  violet  
+5.                    ~red (50) 
+6.                        brick  burgundy  cardinal  cerise  cherry  cinnabar  coccineous  coquelicot  coral  cramoisy  
+6.                        crimson  cyan  erythraean  flammeous  fuchsia  garnet  haematic  incarnadine  kermes  lateritious  
+6.                        madder  +magenta  maroon  miniaceous  minium  modena  nacarat  phoeniceous  pink  ponceau  
+6.                        puccoon  puniceous  raspberry  rectory  red  rose  ruby  rufous  salmon  sanguineous  
+6.                        solferino  stammel  strawberry  testaceous  umber  vermeil  vermilion  vermillion  vinaceous  wine  
+5.                    ~white (12) 
+6.                        albicant  albugineous  blond  chalk  cream  cretaceous  eburnean  ivory  leucochroic  niveous  
+6.                        whey  white  
+5.                    ~yellow (43) 
+6.                        apricot  beige  +buff  butter  buttercup  butterscotch  canary  chrome  citreous  citrine  
+6.                        croceate  fulvous  gamboge  +gold  goldenrod  icterine  icteritious  isabelline  jessamy  lavescent  
+6.                        lemon  lurid  luteous  lutescent  meline  mustard  nankeen  ochre  ochroleucous  +orange  
+6.                        peach  persimmon  primrose  saffron  suede  sulphur  sulphureous  tangerine  tawny  topaz  
+6.                        vitellary  xanthic  yellow  
+2.        ~evaluation_adjectives (10) 
+3.            atrocious  +awful  +bad  +beautiful  +good  great  mediocre  +poor  superb  +ugly  
+2.        ~functionality_adjectives (9) 
+3.            ~enablement_adjectives (6) 
+4.                disabled  enabled  functional  functioning  workable  working  
+3.            ~normalized_adjectives (3) 
+4.                degraded  enhanced  normal  
+2.        ~hardness_adjectives (2) 
+3.            impenetrable  malleable  
+2.        ~locational_adjectives (5) 
+3.            close  far  high  low  near  
+2.        ~mass_adjectives (8 / 2) 
+3.            +heavy  +light  
+3.            ~body_weight_adjectives (6) 
+4.                fat  gaunt  obese  plump  slim  thin  
+2.        ~materials_adjectives (5) 
+3.            cotton  +metallic  metal  paper  wooden  
+2.        ~moisture_adjectives (4) 
+3.            damp  dry  moist  wet  
+2.        ~motion_adjectives (2) 
+3.            motionless  stationary  
+2.        ~orientation_adjectives (10) 
+3.            diagonal  erect  horizontal  kneeling  prone  skewed  tilted  turned  upside-down  vertical  
+2.        ~origin_adjectives (5) 
+3.            American  eastern  French  Greek  lunar  
+2.        ~quantity_adjectives (39 / 3) 
+3.            middling  several  some  
+3.            ~few (12) 
+4.                few  insufficient  meager  minority  not_many  scant  scarcely_any  scarce  scattering  slight  
+4.                sporadic  +stingy  
+3.            ~much (24) 
+4.                a_lot  abounding  bounteous  bountiful  copious  crowded  divers  innumerable  legion  lousy_with  
+4.                many  much  multifarious  multifold  myriad  no_end_of  numberless  numerous  plentiful  populous  
+4.                rife  teeming  umpteen  uncounted  
+2.        ~shape_adjectives (278) 
+3.            acetabuliform  acicular  acinaciform  aciniform  aculeiform  adeniform  aeriform  aliform  allantoid  amygdaloid  
+3.            ancistroid  ancoral  anguiform  anguilliform  angular  ankyroid  annodated  ansate  apsidal  aquiform  
+3.            araneiform  arborescent  arboriform  arcate  arciform  arcuate  arietinous  aspergilliform  aspidate  auriform  
+3.            aveniform  axiniform  bacciform  baculiform  balanoid  belemnoid  beloid  belonoid  boniform  boviform  
+3.            branchiform  branching  broken  buccinal  bufoniform  bursiform  calathiform  calcariform  calceiform  calciform  
+3.            campaniform  campanulate  cancriform  cannular  capriform  cardioid  carinated  cariniform  cassideous  caudiform  
+3.            cauliform  ceratoid  cheliform  choanoid  chubby  cingular  circinate  circular  clathrate  clavate  
+3.            claviform  clithridiate  clustered  clypeate  cochlear  coliform  colliform  colubriform  conchiform  conglobate  
+3.            conical  coracoid  cordate  cordiform  corniculate  corniform  coronoid  corviform  cotyliform  crateriform  
+3.            cribriform  cricoid  crinkled  cteniform  cubic  cubiform  cucullate  cucumiform  culiciform  cultriform  
+3.            cumuliform  cuneate  cuneiform  cupulate  curved  cyathiform  cylindrical  cymbiform  deiform  deltoid  
+3.            dendriform  dendritiform  dentiform  digitiform  disciform  dolabriform  dolioform  domed  draconiform  drepaniform  
+3.            echinuliform  embryoniform  ensiform  eruciform  fabiform  falciform  +fat  faviform  feliform  fibriform  
+3.            fibrilliform  ficiform  filiciform  filiform  fistuliform  flabelliform  flagelliform  flat  floriform  foliform  
+3.            forcipiform  foveiform  fringilliform  fucoid  fulciform  fundiform  fungiform  furcular  fusiform  galeated  
+3.            galeiform  gasiform  geminiform  gladiate  glandiform  glenoid  gliriform  globular  guttiform  hamiform  
+3.            harengiform  hastate  hederiform  helicoid  helminthoid  herpetiform  hexagonal  hippocrepian  hippocrepiform  hollow  
+3.            homaloidal  hominiform  hordeiform  hyoid  hypsiloid  ichthyomorphic  igniform  infundibuliform  irregular  janiform  
+3.            lacertiform  lachrymiform  laciniform  lageniform  lambdoid  lamelliform  lanceolate  lanciform  lapilliform  lentiform  
+3.            leporiform  libriform  ligniform  ligulate  limaciform  linguiform  lobular  luciform  lumbriciform  lumpy  
+3.            lunate  lunulate  lupiform  lyrate  malleiform  mammiform  mammiliform  mammose  mandibuliform  maniform  
+3.            manubrial  medusiform  menisciform  mitrate  mitriform  molariform  moniliform  montiform  morbilliform  moriform  
+3.            mucroniform  muriform  muscariform  napiform  nariform  nasutiform  natiform  navicular  naviform  nephroid  
+3.            neuralgiform  nubiform  nuciform  nummiform  oculiform  olivary  oliviform  omegoid  ooidal  ophiomorphic  
+3.            oriform  ostreiform  oval  oviform  ovopyriform  padded  palaceous  paliform  palmate  pampiniform  
+3.            panduriform  papilliform  paraboliform  patelliform  pateriform  pectiniform  pediform  pelecoid  peltastiform  pelviform  
+3.            pendulous  portly  proportional  pyramidal  rectangular  rotund  round  ruffled  scalloped  square  
+3.            swollen  top-heavy  triangular  tubular  tufted  wavy  winged  wiry  
+2.        ~size_adjectives (11) 
+3.            astronomical  big  enormous  huge  infinitesimal  large  small  thick  +thin  tiny  
+3.            wee  
+2.        ~sound_adjectives (4) 
+3.            loud  +noisy  +quiet  silent  
+2.        ~states_of_matter_adjectives (7) 
+3.            ~gas_adjectives (3) 
+4.                gaseous  gas  plasma  
+3.            ~liquids_adjectives (1) 
+4.                liquid  
+3.            ~solids_adjectives (3) 
+4.                amorphous  crystalline  solid  
+2.        ~taste_adjectives (3) 
+3.            juicy  sweet  yummy  
+2.        ~temperature_adjectives (8) 
+3.            cold  cool  frigid  frozen  hot  tepid  torrid  +warm  
+2.        ~texture_adjectives (42) 
+3.            ~sense_touch (42) 
+4.                bumpy  +cold  +cool  crisp  +damp  +dry  dull  elastic  fleshy  fragile  
+4.                furry  +fuzzy  gritty  hairy  hard  icy  leathery  lukewarm  mushy  oily  
+4.                prickly  rubbery  +sandy  satiny  sharp  silky  slippery  smooth  soft  spongy  
+4.                steamy  sticky  +tender  +tepid  +thick  +thin  +tough  velvety  +warm  waxy  
+4.                +wet  woolly  
+1.    ~relational_adjectives (1) 
+2.        criminal  
+1.    ~time_adjectives (27) 
+2.        ~transition_adjectives (12) 
+3.            +abrupt  evolutionary  gradual  hasty  hurried  +impulsive  quick  rapid  rash  revolutionary  
+3.            sudden  swift  
+2.        ~when_adjectives (15) 
+3.            +ancient  annually  current  former  future  historical  historic  +modern  monthly  +new  
+3.            +old  past  present  yearly  +young  
+1.    ~weather_adjectives (4) 
+2.        rainy  snowy  sunny  windy  

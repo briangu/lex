@@ -1,0 +1,54 @@
+
+0.~adverbs (172) 
+1.    ~causal_adverbs (6) 
+2.        as_a_result_of  because  because_of  due_to  due_to_the_fact_that  since  
+1.    ~certainty_adverbs (5) 
+2.        certainly  definitely  probably  surely  undoubtedly  
+1.    ~commenting_adverbs (4) 
+2.        +certainly  +definitely  obviously  simply  
+1.    ~comparison_adverbs (2) 
+2.        ~comparative_degree_adverbs (2) 
+3.            as  than  
+2.        ~comparative_manner_adverbs (1) 
+3.            +as  
+1.    ~condition_adverbs (4) 
+2.        if  on_condition_that  unless  whether  
+1.    ~conjunctive_adverbs (11) 
+2.        consequently  furthermore  however  likewise  meanwhile  moreover  nevertheless  otherwise  sides  still  
+2.        therefore  
+1.    ~degree_adverbs (17) 
+2.        all  almost  completely  enough  especially  extremely  fairly  hardly  just  nearly  
+2.        particularly  pretty  quite  rather  scarcely  too  very  
+1.    ~explanatory_adverbs (3) 
+2.        as_that  +because  +since  
+1.    ~how_adverbs (19) 
+2.        aggressively  badly  beautifully  fast  gently  greedily  happily  hard  loudly  passively  
+2.        patiently  poorly  quickly  quietly  rapidly  sadly  slowly  softly  well  
+1.    ~place_adverbs (47) 
+2.        about  above  abroad  across  ahead  along  around  away  backwards  back  
+2.        behind  below  by  downhill  downwards  down  eastwards  everywhere  forwards  here  
+2.        homewards  home  indoors  inwards  in  nearby  northwards  nowhere  off  onwards  
+2.        on  outdoors  outside  outwards  out  overseas  over  round  sideways  southwards  
+2.        there  through  under  uphill  upwards  up  westwards  
+1.    ~purpose_adverbs (5) 
+2.        +because  in_order_that  in_order_to  lest  so  
+1.    ~question_adverbs (4) 
+2.        how  when  where  why  
+1.    ~result_adverbs (6) 
+2.        and_so  and_therefore  hence  +so  so_that  +therefore  
+1.    ~supposition_adverbs (3) 
+2.        although  even_if  though  
+1.    ~time_adverbs (35) 
+2.        ~duration_adverbs (1) 
+3.            for_a_while  
+2.        ~frequency_adverbs (17) 
+3.            daily  every_now_and_then  frequently  from_time_to_time  generally  monthly  never  normally  occasionally  often  
+3.            once_in_a_while  regularly  sometimes  times  usually  weekly  yearly  
+2.        ~sequence_adverbs (4) 
+3.            first  fourth  second  third  
+2.        ~when_adverbs (13) 
+3.            before  earlier  eventually  lastly  later  next  now  soon  +still  today  
+3.            tomorrow  yesterday  yet  
+1.    ~viewpoint_adverbs (12) 
+2.        clearly  confidentially  economically  honestly  ideally  +obviously  officially  personally  seriously  +surely  
+2.        surprisingly  +undoubtedly  

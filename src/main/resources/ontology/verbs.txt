@@ -1,0 +1,846 @@
+
+0.~verbs (3379) 
+1.    ~animate_verbs (3180) 
+2.        ~affect_object_verbs (686 / 37) 
+3.            abate  advance  air  alter  appreciate  awake  blur  climb  develop  differ  
+3.            ease  fade  focus  footstep  fray  fuse  hatch  loop  natural  process  
+3.            rid  rocket  shift  short-circuit  short  soar  spare  sprout  staunch  steep  
+3.            straighten  subside  surge  taper  tire  turn  vary  
+3.            ~alter_age (2) 
+4.                age  mature  
+3.            ~alter_chemistry (0) 
+3.            ~alter_cleanliness_verbs (26) 
+4.                ~make_cleaner (18) 
+5.                    brighten  clean_up  cleanse  clean  hand-wash  mop  pressure-wash  sand-blast  scrub  sponge  
+5.                    spring-clean  trim  vacuum-clean  vacuum  wash  water-wash  wax  wipe  
+4.                ~make_dirtier (8) 
+5.                    dirty  +fade  grime  mess  muddy  muss  stain  tarnish  
+3.            ~alter_complexity_verbs (5) 
+4.                ~complicate (3) 
+5.                    complexify  complicate  obfuscate  
+4.                ~simplify (2) 
+5.                    oversimplify  simplify  
+3.            ~alter_container_verbs (21) 
+4.                ~block_access_containment (5) 
+5.                    clog  close  lock  seal  shut  
+4.                ~enable_access_containment (5) 
+5.                    open  reopen  unclog  unlock  unseal  
+4.                ~increase_containment (6) 
+5.                    cram  fill  inflate  load  pack  stuff  
+4.                ~reduce_containment (5) 
+5.                    deflate  drain  empty  unload  unpack  
+3.            ~alter_electricity_verbs (5) 
+4.                ~discharge (1) 
+5.                    discharge  
+4.                ~electrify (4) 
+5.                    electrify  energise  energize  recharge  
+3.            ~alter_esthetics_verbs (104) 
+4.                ~alter_esthetics_better_verbs (88) 
+5.                    ~brand (8) 
+6.                        autograph  brand  caption  initial  label  letter  monogram  sign  
+5.                    ~colorize (29) 
+6.                        bodypaint  +brighten  coat  colorise  colorize  color  colourise  colourize  dye  enamel  
+6.                        fancify  gild  glaze  handcolor  handcolour  lacquer  paint  polychromise  polychromize  prettify  
+6.                        repaint  shellac  +stain  tan  tie-dye  tint  varnish  watercolour  whiten  
+5.                    ~cutart (13) 
+6.                        carve  cast  chisel  engrave  etch  imprint  incise  inscribe  scar  scratch  
+6.                        sculpture  sculpt  whittle  
+5.                    ~draw (17) 
+6.                        applique  +autograph  chalk  charcoal  crayon  doodle  draw  forge  illustrate  ink  
+6.                        pencil  print  sketch  stamp  star  stencil  tattoo  
+5.                    ~genericart (14) 
+6.                        adorn  antique  beautify  cover  decorate  embellish  glamorise  glamorize  glamourise  glamourize  
+6.                        mark  ornament  speckle  wrap  
+5.                    ~sew (8) 
+6.                        crochet  darn  embroider  hem  illuminate  knit  sew  weave  
+4.                ~alter_esthetics_worse (16) 
+5.                    blacken  decolor  decolorise  decolorize  decolour  decolourise  decolourize  discolor  discolorise  discolorize  
+5.                    discolour  discolourise  nigrify  uglify  unwrap  vandalise  
+3.            ~alter_functionality_verbs (48) 
+4.                ~disable (7) 
+5.                    deactivate  disable  inactivate  stop  switch_off  switch  turn_off  
+4.                ~enable (7) 
+5.                    activate  enable  reactivate  start  switch_on  toggle  turn_on  
+4.                ~start (12) 
+5.                    begin  cause  continue  inaugurate  initialize  initiate  proceed  provoke  restart  resume  
+5.                    +start  trigger  
+4.                ~stop_verbs (24) 
+5.                    ~abort (7) 
+6.                        annul  cancel  fail  invalidate  nullify  quash  void  
+5.                    ~complete (11 / 3) 
+6.                        end  expire  finish  
+6.                        ~achieve (8) 
+7.                            accomplish  attain  complete  earn  fulfill  satisfy  succeed  win  
+5.                    ~halt (4) 
+6.                        cease  halt  +stop  terminate  
+5.                    ~pause (2) 
+6.                        pause  suspend  
+3.            ~alter_location_verbs (33 / 5) 
+4.                capsize  carry  lug  transfer  transport  
+4.                ~alter_higher (7) 
+5.                    boost  elevate  heft  hoist  jack_up  lift  raise  
+4.                ~alter_lower (5) 
+5.                    drop  fall  plummet  plunge  sink  
+4.                ~throw (16) 
+5.                    +cast  chuck  defenestrate  fling  flip  heave  hurl  impel  launch  pitch  
+5.                    propel  scatter  throw  thrust  toss  waft  
+3.            ~alter_magnetism_verbs (5) 
+4.                ~add_magnetism (2) 
+5.                    magnetise  magnetize  
+4.                ~remove_magnetism (3) 
+5.                    degauss  demagnetise  demagnetize  
+3.            ~alter_moisture_verbs (26) 
+4.                ~make_drier (9) 
+5.                    blow-dry  defog  dehumidify  dehydrate  demist  desiccate  dessicate  dry  spin-dry  
+4.                ~make_wetter (17) 
+5.                    baste  douse  drench  flood  humidify  immerse  irrigate  moisten  moisturise  moisturize  
+5.                    saturate  soak  spray  submerge  submerse  waterlog  wet  
+3.            ~alter_orientation (35) 
+4.                ~alter_horizontal (2) 
+5.                    spin  +turn  
+4.                ~alter_vertical (8) 
+5.                    balance  overturn  tilt  tip  topple  tumble  upend  upheave  
+4.                ~alter_wiggle (27) 
+5.                    brandish  flap  fluctuate  flutter  gyrate  gyre  oscillate  pirouette  pivot  pulsate  
+5.                    purl  quaver  quiver  revolve  shake  +spin  sway  swing  swish  +turn  
+5.                    twirl  undulate  wave  whirl  wiggle  wigwag  wobble  
+3.            ~alter_quantity_verbs (34) 
+4.                ~decrease_verbs (12) 
+5.                    ~decrease_count (11) 
+6.                        decrease  depreciate  diminish  divide  dwindle  halve  lessen  lose  reduce  shrink  
+6.                        subtract  
+5.                    ~decrease_speed (1) 
+6.                        decelerate  
+4.                ~increase_verbs (22) 
+5.                    ~increase_count (21) 
+6.                        accrete  accumulate  add  aggravate  amass  amplify  append  augment  double  enrich  
+6.                        gain  grow  improve  increase  multiply  proliferate  quadruple  refill  replenish  skyrocket  
+6.                        swell  
+5.                    ~increase_speed (1) 
+6.                        accelerate  
+3.            ~alter_radiation (2) 
+4.                irradiate  radiate  
+3.            ~alter_sharpness (2) 
+4.                ~dull (1) 
+5.                    dull  
+4.                ~sharpen (1) 
+5.                    sharpen  
+3.            ~alter_size_verbs (20 / 1) 
+4.                +fluctuate  
+4.                ~get_bigger (11) 
+5.                    bloat  bulge  dilate  distend  enlarge  expand  +grow  mushroom  snowball  stretch  
+5.                    widen  
+4.                ~get_smaller (8) 
+5.                    compress  condense  contract  +shrink  shrivel  slenderize  slim  thin  
+3.            ~alter_smell_verbs (7) 
+4.                ~add_smell (4) 
+5.                    aromatise  aromatize  odorize  odourise  
+4.                ~remove_smell (3) 
+5.                    deodorise  deodorize  deodourise  
+3.            ~alter_state_verbs (15) 
+4.                ~change_state_by_cool (7) 
+5.                    +condense  cristallise  cristallize  crystalise  crystalize  crystallise  crystallize  
+4.                ~change_state_by_evaporate (1) 
+5.                    evaporate  
+4.                ~change_state_by_heat (7) 
+5.                    +evaporate  gasify  liquefy  liquify  resublime  sublime  vaporise  
+4.                ~change_state_by_mixing (1) 
+5.                    dissolve  
+3.            ~alter_strength_verbs (15) 
+4.                ~strengthen (10) 
+5.                    harden  reinforce  restrengthen  rigidify  ruggedise  ruggedize  stiffen  strengthen  thicken  toughen  
+4.                ~weaken (5) 
+5.                    atrophy  erode  sap  soften  weaken  
+3.            ~alter_temperature_verbs (40) 
+4.                ~chill (9) 
+5.                    chill  dethaw  freeze  frost  glaciate  quick-freeze  refrigerate  solidify  unthaw  
+4.                ~heat (31) 
+5.                    boil  burn  cauterise  cauterize  char  cook  defrost  deice  electrocauterise  electrocauterize  
+5.                    fire  flame  fry  heat  ignite  kindle  pasteurise  pasteurize  preheat  rewarm  
+5.                    scorch  sear  singe  sterilize  thaw  thermalise  thermalize  thermocauterise  thermocauterize  unfreeze  
+5.                    warm  
+3.            ~alter_tightness_verbs (2) 
+4.                ~loosen (1) 
+5.                    loosen  
+4.                ~tighten (1) 
+5.                    tighten  
+3.            ~attachment_verbs (122) 
+4.                ~join (87) 
+5.                    adhere  admix  adsorb  affix  amalgamate  anchor  assemble  associate  attach  band  
+5.                    belt  bind  blend  bolt  bond  bracket  buckle  button  cement  chain  
+5.                    cinch  coalesce  combine  compose  conjoin  connect  couple  entangle  entwine  epoxy  
+5.                    fasten_down  fasten  fetter  glue  handcuff  harness  hinge  hitch  homogenize  hook  
+5.                    incorporate  integrate  join  knot  lace  lash  lassoo  lasso  latch  leash  
+5.                    link  +loop  manacle  match  mix  moor  muzzle  nail  overlap  padlock  
+5.                    peg  pin  plaster  rivet  rope  screw  shackle  skewer  solder  splice  
+5.                    staple  stick  stitch  strap  tack  tape  tether  thread  thumbtack  tie  
+5.                    trammel  truss  unify  unite  wire  yoke  zip  
+4.                ~unjoin (35) 
+5.                    amputate  cut_off  decompose  decouple  detach  disengage  disentagle  disjoin  dismantle  dissociate  
+5.                    drop_off  extract  fall_off  +lose  release  remove  separate  sever  unbraid  unbutton  
+5.                    uncouple  unfasten  unglue  unhinge  unhook  unknit  unknot  unravel  unscrew  unstick  
+5.                    untangle  untie  untwine  unwire  unzip  
+3.            ~creation_verbs (87 / 17) 
+4.                blow  churn  coin  compile  derive  form  grind  +grow  hack  hammer  
+4.                model  mold  pound  roll  stage  style  summon  
+4.                ~arrange (19) 
+5.                    align  arrange  categorize  codify  coil  design  dot  formalize  heap  layer  
+5.                    mound  organize  pile  rack  rearrange  reorganize  schedule  scramble  unscramble  
+4.                ~build (32) 
+5.                    +amalgamate  +assemble  build  code  +compose  concoct  conjure  construct  contrive  create  
+5.                    +design  +develop  fabricate  fashion  +forge  formulate  generate  improvise  instantiate  invent  
+5.                    make  manufacture  mint  produce  program  rebuild  reconstitute  recreate  synthesize  synthetise  
+5.                    synthetize  write  
+4.                ~copy (20) 
+5.                    ape  chart  copy  diagram  document  duplicate  emulate  facsimile  graph  imitate  
+5.                    map  mimeograph  mimic  publish  quadruplicate  record  replicate  reproduce  +tape  xerox  
+3.            ~extinguis (0) 
+3.            ~generic_effect (6) 
+4.                affect  +alter  change  modify  morph  transform  
+3.            ~substitute (8) 
+4.                +change  convert  interchange  replace  subrogate  substitute  supplant  +switch  
+2.        ~animate_move_verbs (252 / 6) 
+3.            beach  clump  find  land  lollop  place  
+3.            ~arrive (5) 
+4.                arrive  get_to  reach  return  visit  
+3.            ~moving_air (6) 
+4.                descend  +drop  +fall  fly  pilot  slip  
+3.            ~moving_beyond (2) 
+4.                pass  pass_by  
+3.            ~moving_escape (16) 
+4.                +bolt  depart  disappear  disembark  escape  evade  exit  flee  leave  retreat  
+4.                skedaddle  slip_away  vacate  vamoose  vanish  withdraw  
+3.            ~moving_fast_land (30) 
+4.                barrel  bound  breeze  canter  careen  carom  charge  chase  dart  dash  
+4.                gallop  hasten  hurry  hurtle  hustle  jog  lope  race  +rocket  run  
+4.                rush  scamper  scoot  scram  +scramble  scurry  speed  sprint  streak  zoom  
+3.            ~moving_generic (63) 
+4.                ascend  bounce  bowl  cavort  +climb  coast  +continue  cross  cruise  curve  
+4.                distance  dog  fit  flit  follow  glide  go_by  guide  head  hop  
+4.                jump  lay  leap  meander  migrate  move_onward  navigate  pedal  +place  prance  
+4.                +proceed  pursue  put  rally  ramble  rise  roam  romp  rove  set  
+4.                shadow  shove  sidle  skip  skitter  slow  spiral  squire  stray  sweep  
+4.                swerve  tour  trail  traverse  usher  vault  wander  wend  yaw  zag  
+4.                zig-zag  zigzag  zig  
+3.            ~moving_object (15) 
+4.                accompany  bring  +carry  convoy  escort  move  pull  push  shove_along  slide  
+4.                steer  tow  translocate  +transport  truck  
+3.            ~moving_slow_land (68) 
+4.                amble  backpack  burrow  clamber  +climb  crawl  creep  dodder  drag  drift  
+4.                file  frolic  gambol  +glide  goose_step  hike  hobble  inch  +jog  limp  
+4.                lumber  lurch  march  march_on  march_onward  mosey  parade  perambulate  plod  +prance  
+4.                promenade  prowl  +pull  +push  reel  +roll  sashay  saunter  shamble  shuffle  
+4.                skulk  sleepwalk  slink  slither  slog  sneak  somersault  stagger  stalk  step  
+4.                stomp  stride  stroll  strut  stumble  swagger  tiptoe  toddle  totter  traipse  
+4.                trek  troop  trot  trudge  tug  waddle  walk  yank  
+3.            ~moving_to (8) 
+4.                approach  come  enter  go  journey  travel  trip  voyage  
+3.            ~moving_water (14) 
+4.                dive  float  ford  oar  paddle  row  sail  scuba  snorkel  surf  
+4.                swim  +tack  wade  water_ski  
+3.            ~vehicle_verbs (27) 
+4.                balloon  boat  bobsled  bus  cab  caravan  chariot  coach  dogsled  ferry  
+4.                gondola  helicopter  jeep  jet  moped  motor  parachute  punt  rickshaw  ride  
+4.                +rocket  sledge  sleigh  taxi  tram  trolley  yacht  
+2.        ~body_verbs (347) 
+3.            ~bodily_activities_verbs (74) 
+4.                ~clothing_verbs (30) 
+5.                    ~dress (16) 
+6.                        attire  camouflage  +change  clad  clothe  disguise  don  dress  enclothe  enrobe  
+6.                        garb  overclothe  robe  tog  underdress  wear  
+5.                    ~gussy (5) 
+6.                        doll  overdress  preen  primp  spruce  
+5.                    ~undress (9) 
+6.                        decloak  disrobe  doff  +remove  strip  take_off  uncloak  unclothe  undress  
+4.                ~groom (44) 
+5.                    bathe  bob  braid  brush  clip  coiffe  coldcream  comb  condition  crimp  
+5.                    crop  curl  curry  cut  depilate  +dry  +dye  +file  floss  gel  
+5.                    groom  henna  highlight  lather  lave  manicure  neaten  +paint  part  pedicure  
+5.                    perm  plait  pluck  powder  rinse  rouge  shampoo  shave  shower  soap  
+5.                    stye  talc  tease  towel  
+3.            ~bodily_function_verbs (193) 
+4.                ~breathe (5) 
+5.                    breathe  exhale  hyperventilate  inhale  respire  
+4.                ~excreting_verbs (18 / 1) 
+5.                    egest  
+5.                    ~excrete_air (6) 
+6.                        belch  +blow  burp  eruct  fart  sneeze  
+5.                    ~excrete_liquid (6) 
+6.                        pee  perspire  piss  sweat  urinate  wee  
+5.                    ~excrete_solid (5) 
+6.                        defecate  excrete  poop  shit  +void  
+4.                ~ingesting_verbs (78) 
+5.                    ~absorb (3) 
+6.                        absorb  inject  insert  
+5.                    ~generic_ingestion (4) 
+6.                        consume  digest  down  ingest  
+5.                    ~inhale (9) 
+6.                        +breathe  +exhale  +hyperventilate  +inhale  +respire  smoke  snort  suspire  toke  
+5.                    ~swallowing_verbs (64 / 8) 
+6.                        banquet  breakfast  brunch  luncheon  lunch  nosh  nutrify  picnic  
+6.                        ~swallow_drink_verbs (19) 
+7.                            ~drink (19) 
+8.                                bottlefeed  breastfeed  chug  +down  drink  glug  gulp  guzzle  imbibe  quaff  
+8.                                sip  slake  slurp  suck  sup  swig  swill  to_drink  water  
+6.                        ~swallow_either (10) 
+7.                            +consume  devour  feast  partake_of  pig_out  polish_off  savour  subsist  swallow  taste  
+6.                        ~swallow_food_verbs (27 / 3) 
+7.                            feed  gorge  graze  
+7.                            ~eat (25) 
+8.                                bite  +bolt  chew  chomp  chow_down  crunch  dine  eat  +feed  gluttonize  
+8.                                gnaw  gobble  lick  masticate  munch  nibble  overeat  overgorge  partake  peck  
+8.                                salivate  snack  spoonfeed  to_eat  wolf  
+4.                ~reproduce_verbs (74 / 8) 
+5.                    beget  gestate  incubate  menstruate  miscarry  ovulate  pollenate  procreate  
+5.                    ~give_birth (11) 
+6.                        calve  cub  fawn  foal  kitten  lamb  litter  pup  +reproduce  spawn  
+6.                        whelp  
+5.                    ~make_love (55) 
+6.                        a_quickie  bang_me  bang_you  bone_you  bonk  butt_fuck  coitus  consumate  copulate  deflower  
+6.                        ejaculate  fellate  fingering  fisting  fornicate  fuck  get_into_your_pants  get_it_on  get_laid  give_head  
+6.                        go_down_on  go_to_bed  had_sex  hand_job  have_sex  humping  hump  impregnate  intercourse  jack_off  
+6.                        jerk_off  jill_off  made_love  make_love  make_out  masturbate  pop_her_cherry  pop_your_cherry  rimming  rub_your  
+6.                        rut  screw_you  +screw  seduce  shag  sleep_with_I  stick_it_in_you  suck_your  tit_fuck  titfuck  
+6.                        to_bed_with  to_hump  wank_off  wank  you_to_bed  
+4.                ~sleepstate_verbs (23 / 1) 
+5.                    yawn  
+5.                    ~sleep (14) 
+6.                        asleep  catnap  doze  dream  drowse  hibernate  nap  oversleep  rest  sleep  
+6.                        slumber  snooze  snore  somnambulate  
+5.                    ~waken (8) 
+6.                        arouse  awaken  +awake  reawaken  rewake  rouse  waken  wake  
+3.            ~remain_stationary (81) 
+4.                adjust  attend  bask  bend  +bob  bow  buck  budge  crouch  dally  
+4.                dance  dawdle  dillydally  fidget  +flap  +float  flop  +flutter  +gyrate  hang  
+4.                hover  hunch  jiggle  joggle  kneel  lallygag  lean  lie  lie_down  loaf  
+4.                loiter  lollygag  lurk  +oscillate  overstay  perch  plop  +pulsate  quail  quake  
+4.                +quiver  remain  +revolve  +rise  rock  roil  rotate  +shake  sit  sit_down  
+4.                slouch  slump  sprawl  squat  squirm  stand  stand_up  stay  stir  stoop  
+4.                +stop  straddle  sunbathe  +sway  swirl  teeter  throb  +totter  tremble  twitch  
+4.                +undulate  vacillate  vegetate  vibrate  +waft  waggle  wait  +wiggle  +wobble  wriggle  
+4.                writhe  
+2.        ~generic_do_verbs (24) 
+3.            ~act (15) 
+4.                act  attempt  can  commit  dedicate  devote  do  employ  intend  labor  
+4.                perform  retry  strive  toil  try  
+3.            ~use (10) 
+4.                apply  +employ  exercise  handle  manipulate  operate  use  utilise  utilize  wield  
+2.        ~health_verbs (484) 
+3.            ~damage_verbs (377) 
+4.                ~damage_bend (21) 
+5.                    +bend  contort  crease  crinkle  crumple  deform  dent  dislocate  +distend  fold  
+5.                    furrow  pleat  +roll  rumple  scrunch  splay  sprain  strain  twist  wind  
+5.                    wrinkle  
+4.                ~damage_burn (10) 
+5.                    +burn  combust  cremate  +ignite  immolate  incinerate  scald  smolder  smoulder  torch  
+4.                ~damage_fatal (123) 
+5.                    ~fatal_to_other (114 / 79) 
+6.                        abolish  annihilate  assassinate  behead  blitz  bury  bushwhack  butcher  chop_up  cleave  
+6.                        crucify  crumble  crush  death  decapitate  decimate  delete  demolish  destroy  devastate  
+6.                        disconnect  discorporate  disembowel  disintegrate  dismember  dispatch  drown  efface  electrocute  eliminate  
+6.                        entomb  erase  euthanatise  euthanatize  euthanize  +expire  exsanguinate  exterminate  exterpate  extirpate  
+6.                        +freeze  gun  gun_down  impale  inter  juice  kill  level  liquidate  martyrise  
+6.                        martyrize  massacre  melt  mummify  murder  obliterate  off  poison  power-off  power_off  
+6.                        raze  rebury  reobliterate  ruin  sacrifice  slaughter  slay  smash  smash_down  squash  
+6.                        squish  starve  step_on  +turn_off  undo  unmake  unplug  waste  wreck  
+6.                        ~damage_explode (11) 
+7.                            atom-bomb  blast  bomb  burst  detonate  explode  nuke  pop  rupture  torpedo  
+7.                            vaporize  
+6.                        ~damage_snap (12) 
+7.                            break  break_apart  break_down  break_up  bust  crack  fracture  rip  shatter  snap  
+7.                            splinter  split  
+6.                        ~fatal_other_burn (2) 
+7.                            +ignite  +immolate  
+6.                        ~fatal_other_strangle (10) 
+7.                            asphyxiate  choke  garrote  +hang  lynch  smother  strangle  strangulate  suffocate  throttle  
+5.                    ~fatal_to_self (16) 
+6.                        +asphyxiate  die_out  die  +discorporate  +drown  +explode  implode  mariticide  perish  +power-off  
+6.                        predecease  self-destroy  self-destruct  +starve  +suffocate  suicide  
+4.                ~damage_generic (90) 
+5.                    accost  atomise  atomize  barbarise  barbarize  besiege  brutalise  brutalize  coagulate  coerce  
+5.                    congeal  corrupt  curdle  damage  debilitate  declaw  defang  defeminise  defeminize  degrade  
+5.                    dehumanise  dehumanize  demasculinise  demasculinize  deprive  desex  desexualise  desexualize  deteriorate  detusk  
+5.                    devitalise  devitalize  discommode  discontinue  emulsify  enervate  enfeeble  eradicate  excruciate  hospitalise  
+5.                    hurt  immobilise  immobilize  impair  imperil  impoverish  incapacitate  inflict  injure  institutionalise  
+5.                    jellify  jeopardise  liquidise  liquidize  lobectomise  lobectomize  lobotomise  lobotomize  macerate  maltreat  
+5.                    mastectomise  mastectomize  misalign  mistreat  mutate  neutralise  neutralize  overwhelm  paralyse  paralyze  
+5.                    penalise  ravage  skew  sodomise  sodomize  spay  steamroll  sterilise  stun  stupefy  
+5.                    toperment  torture  trash  traumatise  traumatize  unsex  vasectomise  vasectomize  victimise  wound  
+4.                ~damage_hit (30) 
+5.                    ~damage_hit_foot (5) 
+6.                        flatten  kick  +squash  +squish  +step_on  
+5.                    ~damage_hit_other (25) 
+6.                        bean  bludgeon  +bonk  bruise  bump  cane  +clip  concuss  contuse  crash  
+6.                        +crumble  cuff  +graze  hit  impact  K/O  pistol-whip  pulverise  pulverize  punch  
+6.                        +smash_down  +smash  smite  strike  +trash  
+4.                ~damage_magic (28) 
+5.                    accurse  alchemise  alchemize  anathemise  bedamn  bewitch  brainwash  curse  dematerialise  dematerialize  
+5.                    desanctify  enchant  ensourcel  execrate  fossilise  fossilize  hypnotise  hypnotize  imprecate  maledict  
+5.                    mesmerize  petrify  powderise  powderize  sorcerise  sorcerize  spellbind  transmute  
+4.                ~damage_poison (9) 
+5.                    bacterise  bacterize  dose  +euthanize  infect  +irradiate  +poison  sting  taint  
+4.                ~damage_projectile (9) 
+5.                    +discharge  +fire  +gun_down  +gun  +launch  shell  shoot  stone  strafe  
+4.                ~damage_puncture (13) 
+5.                    bayonet  +bite  bleed  +disembowel  +impale  knife  nip  perforate  pierce  prick  
+5.                    puncture  stab  +thrust  
+4.                ~damage_slice (54) 
+5.                    +amputate  ax  +behead  bifurcate  +butcher  castrate  chip  chop  +chop_up  +cleave  
+5.                    +cut  +decapitate  disfigure  +dismember  emasculate  eviscerate  flake  fragmentise  fragmentize  gash  
+5.                    geld  guillotine  +hack  hew  +juice  maim  mutilate  nick  pole-ax  pole-axe  
+5.                    poleax  poleaxe  prune  rend  reslice  +rip  rive  saw  scissor  scrape  
+5.                    +scratch  +sever  shred  skin  slash  slice  sliver  snip  subdivide  sunder  
+5.                    tear  trifurcate  trisect  vivisect  
+4.                ~damage_unusual (9) 
+5.                    assimilate  blind  deafen  defoliate  deforest  denude  +dissolve  emaciate  sunburn  
+4.                ~damage_verbal (4) 
+5.                    besmirch  desecrate  libel  slander  
+3.            ~degrade (12) 
+4.                decline  +decompose  +degrade  devolve  fester  languish  putrefy  rot  wane  wilt  
+4.                wither  worsen  
+3.            ~enhance_verbs (68) 
+4.                ~disenchant (5) 
+5.                    deenchant  despell  disenchant  unenchant  unsourcel  
+4.                ~improve (11) 
+5.                    +augment  enhance  evolve  +improve  prolong  regenerate  remodel  renovate  restitute  revamp  
+5.                    revolutionize  
+4.                ~medical_improve (28) 
+5.                    alleviate  anesthetise  antisepticize  assuage  bandage  convalesce  cure  detoxify  diagnose  disinfect  
+5.                    heal  immunise  immunize  medicate  mend  narcotize  palliate  prescribe  recuperate  relieve  
+5.                    salve  sedate  soothe  splint  suture  tranquilize  treat  vaccinate  
+4.                ~repair (14) 
+5.                    aid  ameliorate  correct  fix  mitigate  modernise  modernize  reboot  rectify  refurbish  
+5.                    remediate  repair  restore  tune  
+4.                ~resurrect (10) 
+5.                    reanimate  reincarnate  rejuvenate  renew  resurrect  resuscitate  revitalise  revive  vitalise  vitalize  
+3.            ~flourish (5) 
+4.                extend  flourish  predominate  prosper  thrive  
+3.            ~illhealth_verbs (25 / 3) 
+4.                ache  +hurt  sicken  
+4.                ~blood_ill (6) 
+5.                    blanch  +bleed  blench  faint  hemorrhage  pale  
+4.                ~lung_ill (6) 
+5.                    cough_up  cough  expectorate  +sneeze  snuffle  wheeze  
+4.                ~stomache_ill (11) 
+5.                    barf  disgorge  +expectorate  puke  regurgitate  retch  spew  spue  throw_up  upchuck  
+5.                    vomit  
+2.        ~mental_verbs (244) 
+3.            ~count (10) 
+4.                average  catalogue  catalog  count  enumerate  list  measure  sum  tally  total  
+3.            ~judgement_verbs (133) 
+4.                ~choose (12) 
+5.                    arbitrate  chance  choose  decide  guess  handpick  pick  prefer  rather  risk  
+5.                    select  suggest  
+4.                ~classify (20) 
+5.                    categorise  characterize  classify  class  define  +diagnose  identify  interpret  misclassify  name  
+5.                    +peg  pigeonhole  reclassify  sort  stereotype  subcategorise  subcategorize  subclassify  typecast  winnow  
+4.                ~describe (8) 
+5.                    +cast  depict  describe  detail  portray  recast  represent  specify  
+4.                ~judge (18) 
+5.                    adjudicate  analyze  compare  contrast  critique  deem  determine  evaluate  grade  judge  
+5.                    lowball  misgauge  misjudge  overrate  overvalue  rank  underrate  valuate  
+4.                ~opinion_verbs (76 / 8) 
+5.                    believe  doubt  prove  reason  reflect  solve  surmise  think  
+5.                    ~dislike (22) 
+6.                        abhor  abominate  condemn  deplore  despise  detest  disdain  dislike  distrust  do_not_like  
+6.                        dread  eschew  +execrate  fear  hate  lament  least_favorite  loathe  not_a_fan_of  resent  
+6.                        scorn  shun  
+5.                    ~like (36) 
+6.                        approve  are_big_on  be_keen_on  be_partial_to  care_about  care_for  care  cherish  deify  delight_in  
+6.                        desire  dote_on  enjoy  esteem  exalt  fancy  favorite  favor  go_for  idolize  
+6.                        indulge_in  like  love  need  +prefer  prize  relish  require  respect  revel_in  
+6.                        savor  treasure  trust  value  venerate  worship  
+5.                    ~want (13) 
+6.                        covet  crave  demand  +desire  +fancy  hanker  long_for  lust  necessitate  +need  
+6.                        want  wish_for  wish  
+3.            ~play (4) 
+4.                clown_around  play_act  play  toy  
+3.            ~remember (13) 
+4.                apprentice  ascertain  glean  know  learn  memorize  practice  recall  recite  recognize  
+4.                recollect  rehearse  remember  
+3.            ~think_verbs (82) 
+4.                ~faulty_think (9) 
+5.                    confuse  forget  misapprehend  misconceive  misconstrue  misidentify  misinterpret  misremember  misunderstand  
+4.                ~imagining_think (27) 
+5.                    cerebrate  cogitate  conceive  dream_up  dummy  envisage  envision  fake  fantasize  hypothecate  
+5.                    hypothesise  hypothesize  image  imagine  introspect  outguess  plan  predict  preplan  pretend  
+5.                    simulate  suppose  theorise  visualise  visualize  +wish  wonder  
+4.                ~reasoning_think_verbs (47 / 13) 
+5.                    +conceive  conclude  cost  deduce  experience  figure  gather  idea  mind  opinion  
+5.                    +prove  remind  suspect  
+5.                    ~reasoning_basis (6) 
+6.                        assume  depend_on  depend_upon  presume  rely_on  +trust  
+5.                    ~reasoning_conclusion (13) 
+6.                        +believe  calculate  comprehend  compute  +deduce  +derive  disprove  infer  puzzle_out  rationalize  
+6.                        realize  twig  understand  
+5.                    ~reasoning_process (16) 
+6.                        attention  concentrate  conjecture  consider  deliberate  entertain  experiment  +focus  ponder  +reason  
+6.                        speculate  test  +think  trouble-shoot  troubleshoot  validate  
+3.            ~worship (9) 
+4.                commune  exorcise  exorcize  meditate  pray  sanctify  spiritualise  tithe  +worship  
+2.        ~perception_verbs (163 / 13) 
+3.            +coalesce  +derive  +develop  exude  flow  +form  +grow  +open  +plop  stream  
+3.            supervene  +surge  +wax  
+3.            ~awareof (18) 
+4.                appear  be_you_aware_of  be_you_familiar_with  detect  discern  discover  do_you_know  +experience  have_you_heard_of  have_you_run_across  
+4.                intuit  materialize  perceive  sense  show_up  what_be  what_do_you_know_about  who_be  
+3.            ~balance (2) 
+4.                +balance  dizzy  
+3.            ~hear (4) 
+4.                eavesdrop  hear  listen  overhear  
+3.            ~search (40) 
+4.                advertise  check  +comb  +dive  dredge  examine  excavate  explore  ferret  forage  
+4.                frisk  grope  hunt  inspect  investigate  look_for  patrol  probe  prospect  +prowl  
+4.                quarry  ransack  retrace  riffle  rifle  root  rummage  scan  scavenge  scout  
+4.                scrutinize  search  seek  sift  +stalk  survey  track  trawl  troll  watch_for  
+3.            ~smell (3) 
+4.                scent  smell  sniff  
+3.            ~taste (3) 
+4.                +relish  +savor  +taste  
+3.            ~touch (24) 
+4.                feel  +frisk  grasp  +graze  grip  +grope  +handle  knead  +manipulate  massage  
+4.                nudge  pat  paw  pinch  poke  +probe  prod  retouch  rub  squeeze  
+4.                tickle  touch  tweak  wring  
+3.            ~vision_verbs (67 / 13) 
+4.                assess  audit  canvass  descry  +explore  expose  +investigate  note  +recognize  reveal  
+4.                review  +riffle  +zoom  
+4.                ~become_visible (8) 
+5.                    arise  dawn  emerge  erupt  issue  pop_up  re-emerge  reappear  
+4.                ~disappear (4) 
+5.                    conceal  +disappear  hide  +vanish  
+4.                ~read (3) 
+5.                    browse  read  skim  
+4.                ~watch (39) 
+5.                    behold  espy  +examine  eyeball  eye  face  gape  gawk  gawp  gaze  
+5.                    glance  glimpse  goggle  +inspect  +look_for  look  +make_out  monitor  notice  observe  
+5.                    ogle  peek  peer  peruse  regard  rubberneck  +scan  +scrutinize  see  sight  
+5.                    spectate  spot  squint  stare  study  take_in  view  watch  witness  
+2.        ~social_verbs (1068) 
+3.            ~communicate_verbs (558) 
+4.                ~generic_communicates (5) 
+5.                    communicate  contact  empathize  get_in_touch_with  +reach  
+4.                ~nonverbal_communication_verbs (172) 
+5.                    ~animalsounds (65) 
+6.                        baa  bark  bay  bellow  bleat  bray  buzz  cackle  call  caw  
+6.                        chatter  cheep  chirp  chirrup  chitter  cluck  coo  croak  crow  cuckoo  
+6.                        drone  +gobble  growl  grunt  hee-haw  hiss  honk  hoot  howl  low  
+6.                        meow  mewl  mew  moo  neigh  oink  peep  pipe  purr  quack  
+6.                        roar  scream  screech  sing  +snap  snarl  +snort  +snuffle  squeak  squeal  
+6.                        stridulate  trill  tweet  twitter  wail  warble  whimper  whinny  whistle  woof  
+6.                        yap  yell  yelp  yip  yowl  
+5.                    ~emotional_verbs (96 / 5) 
+6.                        +goggle  jeer  mystify  +snort  tempt  
+6.                        ~affection (11) 
+7.                            buss  canoodle  caress  cuddle  embrace  fondle  hug  kiss  nuzzle  pet  
+7.                            stroke  
+6.                        ~cry (4) 
+7.                            cry  mourn  sob  weep  
+6.                        ~laugh (14) 
+7.                            +cackle  chortle  chuckle  giggle  grin  groan  guffaw  +howl  laughter  laugh  
+7.                            smirk  snicker  snigger  titter  
+6.                        ~misc_negative_emotions (39) 
+7.                            alarm  alienate  annoy  appal  beware  bewilder  +confuse  disappoint  disapprove  displease  
+7.                            embarrass  frighten  frown  glare  glower  grimace  +groan  +growl  horrify  irk  
+7.                            irritate  moan  pester  pout  +provoke  regret  scare  scoff  scowl  sigh  
+7.                            simper  sneer  +sniff  snivel  spit  suffer  sulk  vex  worry  
+6.                        ~misc_positive_emotions (16) 
+7.                            astound  attract  beam  bedazzle  beguile  blush  excite  flirt  gratify  hope  
+7.                            ooh  please  rejoice  smile  tantalize  +whistle  
+6.                        ~surprise (8) 
+7.                            amaze  astonish  boggle  flabbergast  +gape  gasp  +gawk  surprise  
+5.                    ~gestures (16) 
+6.                        cue  demonstrate  designate  genuflect  gesture  indicate  +mark  nod  point  semaphore  
+6.                        show  shrug  signal  +sign  +tremble  wince  
+4.                ~speak_verbs (397) 
+5.                    ~chat (24) 
+6.                        answer  ask  banter  +chatter  chat  chitchat  commiserate  confer  consult  converse  
+6.                        debate  discuss  engage_in_conversation  gab  gossip  jest  joke  muse  parley  rap  
+6.                        retort  schmooze  speak  talk  
+5.                    ~deceive (15) 
+6.                        bamboozle  belie  deceive  dissemble  equivocate  feign  fib  hoodwink  +lie  misinform  
+6.                        mislead  misrepresent  misstate  perjure  prevaricate  
+5.                    ~social_reputation_verbs (115) 
+6.                        ~negative_social (76) 
+7.                            +accurse  asperse  assail  backbite  badmouth  belittle  bemock  berate  blame  blaspheme  
+7.                            calumniate  castigate  censure  chasten  chastise  chide  +condemn  criminate  criticise  criticize  
+7.                            +curse  damn  decry  defame  denigrate  denounce  deprecate  deride  disparage  diss  
+7.                            +doubt  excoriate  fault  gibe  impeach  +imprecate  incriminate  indict  insult  lambast  
+7.                            lambaste  lampoon  malign  mock  penalize  persecute  prosecute  punish  rebuke  +recall  
+7.                            recriminate  remonstrate  reprehend  reprimand  reproach  reprove  repudiate  revile  ridicule  scold  
+7.                            +scorn  shame  +slander  snipe  snitch  snub  stigmatize  stultify  sully  traduce  
+7.                            trivialise  trivialize  upbraid  victimize  vilify  vituperate  
+6.                        ~positive_social (39) 
+7.                            acclaim  applaud  +approve  beatify  bless  +bow  canonise  canonize  celebrate  cheerlead  
+7.                            cheer  commend  compliment  condone  congratulate  eulogize  excuse  extol  exuberate  exult  
+7.                            felicitate  forgive  glorify  greet  hail  herald  honor  jubilate  laud  overpraise  
+7.                            pardon  praise  recommend  salute  sanction  thank  toast  +wave  welcome  
+5.                    ~speak_thru_device (8) 
+6.                        broadcast  page  phone  radio  tape_record  telecommunicate  telephone  wireless  
+5.                    ~talkstyle (87) 
+6.                        babble  +bark  bawl  +bellow  blare  +bleat  blurt  boom  +bray  burble  
+6.                        +cackle  +call  carol  chant  +chirp  +cluck  +coo  crab  +croak  croon  
+6.                        +crow  +cry  gabble  gibber  +groan  +growl  grumble  +grunt  gurgle  +hiss  
+6.                        holler  +hoot  +howl  hum  jabber  lilt  lisp  mispronounce  +moan  mumble  
+6.                        murmur  mutter  natter  +purr  +quaver  rage  rant  rasp  rhyme  +roar  
+6.                        rumble  +scream  +screech  shout  shriek  +sign  +simper  +sing  +snap  +snarl  
+6.                        +snuffle  splutter  squall  squawk  +squeak  +squeal  stammer  stemmer  stutter  thunder  
+6.                        +trill  trumpet  +twitter  +wail  +warble  +wheeze  +whimper  whine  whisper  +whistle  
+6.                        whoop  yak  yammer  +yap  +yell  +yelp  yodel  
+5.                    ~tell (122) 
+6.                        advise  alert  allege  announce  apologize  apprise  articulate  ascribe  +ask  assert  
+6.                        assure  attest  beg  belabor  belabour  beseech  blab  bluster  boast  brag  
+6.                        brief  caution  +characterize  claim  clarify  comment  complain  confabulate  confess  confide  
+6.                        convey  corroborate  counsel  declare  +describe  dictate  disclose  divulge  drawl  +drone  
+6.                        educate  elaborate  elucidate  encourage  entreat  enunciate  espouse  exclaim  explain  explicate  
+6.                        expound  express  gloat  gripe  grouch  grouse  hint  +illustrate  imply  inform  
+6.                        insinuate  insist  instruct  intimate  iterate  justify  leak  lecture  lobby  mention  
+6.                        message  moralize  narrate  +note  notify  orate  prattle  preachify  preach  proclaim  
+6.                        promulgate  pronounce  prophesy  propose  rabbit  +recite  recount  reiterate  relate  relay  
+6.                        remark  +remind  repeat  reply  report  respond  +reveal  say  sermonise  sermonize  
+6.                        +speak  spiel  state  +suggest  sweet-talk  +talk  teach  tell  testify  theorize  
+6.                        update  utter  venture  verbalise  verbalize  verify  vocalise  vocalize  vociferate  voice  
+6.                        warn  wheedle  
+5.                    ~verbal_agree (8) 
+6.                        acknowledge  affirm  agree  +approve  compromise  consent  rubberstamp  stipulate  
+5.                    ~verbal_disagree (22) 
+6.                        argue  bicker  confute  contend  contest  contradict  controvert  counter  +differ  disagree  
+6.                        dispute  dissent  nitpick  object  quarrel  quibble  rebut  refute  reject  squabble  
+6.                        veto  vie  
+4.                ~videoing (7) 
+5.                    +broadcast  film  microfilm  satellite  +tape  telecast  televise  
+4.                ~writing (21) 
+5.                    annotate  author  cable  chronicle  e-mail  fax  jot  netmail  +publish  rewrite  
+5.                    scrawl  scribble  script  telex  touch-type  transcribe  +tweet  typewrite  type  +wire  
+5.                    +write  
+3.            ~controlling_verbs (189 / 9) 
+4.                connive  constrain  +contrive  convince  decontrol  defer  endeavor  persuade  plot  
+4.                ~avoid (11) 
+5.                    avoid  boycott  circumvent  dodge  duck  elude  +eschew  +evade  forgo  +shun  
+5.                    sidestep  
+4.                ~exclusion_verbs (91 / 4) 
+5.                    +boycott  calm_down  except  omit  
+5.                    ~banish (19) 
+6.                        banish  deport  disbar  +discharge  disenfranchise  disfranchise  +drop  evacuate  evict  excommunicate  
+6.                        exile  expel  +fire  ignore  ostracise  ostracize  sack  +terminate  unfrock  
+5.                    ~block_access (15) 
+6.                        ban  bar  block  +constrain  criminalise  criminalize  decertify  deny  disallow  exclude  
+6.                        illegalise  illegalize  proscribe  restrict  withhold  
+5.                    ~imprison (18) 
+6.                        cage  capture  catch  +commit  confine  detain  ensnare  entrap  +handcuff  hem_in  
+6.                        herd  hospitalize  imprison  incarcerate  institutionalize  jail  restrain  shanghai  
+5.                    ~prevent (24) 
+6.                        avert  +ban  +bar  +block  control  curb  deter  discourage  forbid  hamper  
+6.                        hinder  impede  inhibit  limit  lull  obstruct  preclude  prevent  prohibit  rein  
+6.                        repress  +restrain  +stop  subdue  
+5.                    ~silence (15) 
+6.                        dampen  gag  hush_up  hush  keep_down  +muzzle  +quash  quell  shut_up  silence  
+6.                        squelch  stamp_down  stifle  still  suppress  
+4.                ~govern_verbs (77 / 2) 
+5.                    conquer  impose  
+5.                    ~boss (12) 
+6.                        anoint  appoint  boss  command  crown  elect  govern  +head  lead  manage  
+6.                        oversee  supervise  
+5.                    ~legal_verbs (46) 
+6.                        ~legal_allow (22) 
+7.                            accede  allow  +approve  authorise  authorize  capitulate  certify  decriminalise  decriminalize  legalise  
+7.                            legalize  legitimatise  legitimatize  legitimise  legitimize  let  license  okay  permit  +sanction  
+7.                            tolerate  vet  
+6.                        ~legal_guilt (3) 
+7.                            admit  cheat  +commit  
+6.                        ~legal_harm (11) 
+7.                            accuse  arraign  arrest  +blame  +charge  convict  court-martial  enforce  extradite  sentence  
+7.                            +summon  
+6.                        ~legal_help (4) 
+7.                            appeal  commute  +pardon  reprieve  
+6.                        ~legal_lawmaking (6) 
+7.                            amend  countermand  overrule  petition  repeal  rescind  
+5.                    ~obedience_verbs (18) 
+6.                        ~accept_obey (6) 
+7.                            comply  give_in  obey  submit  succumb  yield  
+6.                        ~decline_obey (3) 
+7.                            balk  disobey  flout  
+6.                        ~force_obey (9) 
+7.                            +command  compel  +demand  enslave  oblige  order  +require  subjugate  tame  
+4.                ~include (5) 
+5.                    +admit  include  invite  +open  +welcome  
+3.            ~possession_verbs (238) 
+4.                ~employ (12) 
+5.                    commission  +contract  +employ  engage  enlist  hire  recruit  reinstate  sign_on  sign_up  
+5.                    subcontract  train  
+4.                ~exchange (33) 
+5.                    barter  bet  buy  +earn  exchange  flog  for_a_living  for_cash  for_money  gamble  
+5.                    invest  lend  merchandise  misspend  negotiate  overpay  overprice  overspend  owe  pay  
+5.                    peddle  prepay  purchase  reimburse  sell  shop  swap  trade  transact  underpay  
+5.                    underprice  undersell  underspend  
+4.                ~gain_verbs (106) 
+5.                    ~acquiring_verbs (106) 
+6.                        ~begiven (5) 
+7.                            accept  borrow  cadge  inherit  receive  
+6.                        ~get (29) 
+7.                            accrue  +accumulate  acquire  adopt  appropriate  batch  collect  compensate  exact  father  
+7.                            +find  fish  garner  +gather  get  grab  +grip  +hunt  obtain  pick_up  
+7.                            recompense  recover  regain  remunerate  repay  retrieve  serve  stockpile  take_up  
+6.                        ~give (22) 
+7.                            award  bequeath  bestow  contribute  +convey  deed  deliver  dish_out  dish  dispense  
+7.                            dole_out  donate  fork_over  fund  furnish  gift  give  grant  hand_over  hand  
+7.                            reward  turn_over  
+6.                        ~steal (51) 
+7.                            abduct  abscond  annex  burglarise  burglarize  burgle  carjack  confiscate  cop  emancipate  
+7.                            embezzle  extort  filch  gip  +grab  highjack  hijack  +hook  hornswoggle  kidnap  
+7.                            knock_off  liberate  +lift  nab  +nick  nobble  pickpocket  pilfer  +pinch  pirate  
+7.                            purloin  reclaim  redeem  repossess  rescue  rob  rustle  salvage  seize  sequester  
+7.                            shop-lift  shoplift  smuggle  snatch  +sneak  steal  swipe  take  thieve  wrangle  
+7.                            wrest  
+4.                ~help (12) 
+5.                    abet  +advise  +aid  assist  do_I_a_favor  do_you_a_favor  facilitate  give_I_a_hand  give_you_a_hand  help  
+5.                    lend_I_a_hand  lend_you_a_hand  
+4.                ~lose_verbs (40 / 3) 
+5.                    leech  +place  tax  
+5.                    ~deacquiring_verbs (37) 
+6.                        ~bedeacquired (16) 
+7.                            auction  defraud  defrock  depose  desert  disinherit  disown  +drop  +lose  oust  
+7.                            overthrow  raffle  +release  relinquish  spend  usurp  
+6.                        ~drop_verbs (24) 
+7.                            ~drop_job (4) 
+8.                                abdicate  renounce  resign  retire  
+7.                            ~drop_object (20) 
+8.                                cede  deal  discard  dispose  distribute  divest  +drop  dump  forfeit  forsake  
+8.                                give_onto  give_up  +leave  +lose  quit  refund  +relinquish  scrap  shed  +vacate  
+4.                ~own (14) 
+5.                    belong  clasp  clutch  +grab  +grasp  +grip  +handle  have  hold  keep  
+5.                    own  possess  retain  +seize  
+4.                ~price (14) 
+5.                    appraise  approximate  +assess  bargain  calibrate  dicker  estimate  +fix  gauge  +peg  
+5.                    price  rate  reappraise  +value  
+4.                ~promise (5) 
+5.                    guarantee  offer  pledge  promise  vow  
+4.                ~purchaseinterest (5) 
+5.                    interested_in  +like  looking_for  looking_to  show_you  
+3.            ~role_verbs (95) 
+4.                ~befriend (4) 
+5.                    ally  +associate  befriend  friend  
+4.                ~compete_verbs (50) 
+5.                    ~defend (8) 
+6.                        +block  counterattack  cower  deflect  +dodge  feint  parry  riposte  
+5.                    ~fight (35) 
+6.                        aim  altercate  attack  battle  beat  box  brawl  challenge  clash  combat  
+6.                        compete  conflict  confront  counterchallenge  duel  endanger  feud  fight  invade  joust  
+6.                        oppose  repel  resist  retaliate  scuffle  skirmish  spar  struggle  target  threaten  
+6.                        +tilt  tussle  +vie  war  wrestle  
+5.                    ~lost (2) 
+6.                        concede  +lose  
+5.                    ~won (5) 
+6.                        best  overcome  score  vanquish  +win  
+4.                ~date (6) 
+5.                    court  date  go_out_with  womanise  womanize  woo  
+4.                ~endrelation (8) 
+5.                    abandon  +annul  betray  +break_up  divorce  estrange  secede  +separate  
+4.                ~marry (13) 
+5.                    betroth  +bond  +conjoin  inmarry  intermarry  marry  mate  mismarry  partner  remarry  
+5.                    rewed  wed  wive  
+4.                ~meet (4) 
+5.                    acquaint  encounter  introduce  meet  
+4.                ~parent (10) 
+5.                    babysit  +care_for  defend  +feed  nourish  protect  safeguard  shepherd  shield  +water  
+2.        ~special_activities_verbs (125) 
+3.            ~be_verbs (19) 
+4.                ~endure (11) 
+5.                    bear  endure  last  linger  maintain  persist  prevail  +remain  survive  weather  
+5.                    withstand  
+4.                ~tobe (8) 
+5.                    become  be  consist_of  consist  exist  +look  seem  sound  
+3.            ~cook (49) 
+4.                bake  barbecue  +blanch  +boil  braise  broil  brown  caramelise  caramelize  coddle  
+4.                +cook  crispen  crisp  deep-fry  free-base  +fry  grill  +heat  julienne  microwave  
+4.                ovenbake  overboil  overcook  overheat  pan-broil  pan-fry  parboil  parch  peel  percolate  
+4.                perk  pickle  plank  poach  pressure-cook  pulp  puree  reheat  rissole  roast  
+4.                saute  scale  scallop  shirr  simmer  steam  stew  +toast  warm-up  
+3.            ~drive (4) 
+4.                chauffeur  drive  park  ticket  
+3.            ~exercise (7) 
+4.                +exercise  fence  mud-wrestle  mudwrestle  waterski  weight-lift  weightlift  
+3.            ~farm (22) 
+4.                dig  farm  fertilise  fertilize  germinate  +grow  hoe  mow  mulch  plant  
+4.                plough  plow  pollinate  +raise  rake  replant  ripen  seed  shade  shovel  
+4.                tend  till  
+3.            ~gamble (2) 
+4.                +bet  wager  
+3.            ~golfing (1) 
+4.                putt  
+3.            ~live (15) 
+4.                abide  board  domicile  dwell  +exist  frequent  inhabit  live  lodge  nest  
+4.                occupy  rent  reside  shelter  +stay  
+3.            ~mine (5) 
+4.                +excavate  mine  +quarry  strip_mine  surface_mine  
+3.            ~photographing (2) 
+4.                photograph  underexpose  
+1.    ~inanimate_verbs (298) 
+2.        ~inanimate_move_verbs (53) 
+3.            angle  +ascend  +bring  cache  +carry  cascade  +climb  +come  +crawl  crest  
+3.            crisscross  +cross  +cut  +descend  dip  +dive  drip  +drop  edge  +emerge  
+3.            +flow  +go  +meander  mount  ooze  +pack  +pass  +plummet  +plunge  range  
+3.            ricochet  +rise  +run  seep  skirt  slant  snake  store  stow  straggle  
+3.            +stretch  +sweep  +swerve  +transport  +tumble  +turn  +twist  +undulate  veer  +wander  
+3.            +weave  +wind  +zigzag  
+2.        ~inanimate_stationary_verbs (84) 
+3.            abut  adjoin  +balance  bestride  blanket  border  +bound  +bow  +bracket  bridge  
+3.            cap  circle  cloak  cluster  contain  +cover  +cross  +crouch  dangle  droop  
+3.            +edge  encircle  enclose  encompass  engulf  envelop  +fence  +fill  flank  +flop  
+3.            +follow  frame  group  +hang  +head  +hover  huddle  +hunch  intersect  jut  
+3.            +kneel  +lean  +lie  line  loll  loom  lounge  neighbor  nestle  overcast  
+3.            +perch  +plop  precede  protrude  recline  repose  +rest  rim  ring  +rise  
+3.            roost  sag  +sit  +skirt  slope  +slouch  +slump  span  +sprawl  +squat  
+3.            +stand  +stoop  +straddle  support  surmount  surround  +swing  +tilt  top  +touch  
+3.            tower  +traverse  underlie  wreathe  
+2.        ~physicalattribute_verbs (170) 
+3.            ~emitfire (9) 
+4.                blaze  +burn  enkindle  +flame  flare  +ignite  +kindle  light  rekindle  
+3.            ~emitgas (3) 
+4.                bubble  puff  +steam  
+3.            ~emitgeneric (3) 
+4.                emanate  emit  +exude  
+3.            ~emitlight (18) 
+4.                +beam  blink  flash  flicker  fluoresce  +glare  gleam  glint  glisten  glitter  
+4.                glow  incandesce  +light  scintillate  shimmer  shine  sparkle  twinkle  
+3.            ~emitliquid (24) 
+4.                dribble  +drip  drool  +expectorate  foam  gush  +jet  +leak  +ooze  +percolate  
+4.                pour  secrete  +seep  slobber  slop  slosh  spill  +spit  spout  +sprout  
+4.                spurt  squirt  +stream  trickle  
+3.            ~emitsmell (3) 
+4.                reek  +smell  stink  
+3.            ~emitsound (112) 
+4.                +babble  bang  +beat  beep  +bellow  +blare  +blast  blat  +boom  +bubble  
+4.                +burble  burr  +buzz  +chatter  chime  chink  +chitter  +chug  clack  clang  
+4.                clank  clap  +clash  clatter  click  cling  clomp  +clump  clunk  crackle  
+4.                +crack  +crash  creak  crepitate  +crunch  +cry  ding  dong  echo  +explode  
+4.                fizzle  fizz  +groan  +growl  +gurgle  +hiss  +hoot  +hum  jangle  jingle  
+4.                knell  knock  +lilt  +moan  +murmur  patter  peal  pink  plonk  +plop  
+4.                plunk  +pop  +purr  putter  +rap  +rasp  rattle  resonate  resound  reverberate  
+4.                +ring  +roar  +roll  +rumble  +rustle  +scream  +screech  +shriek  shrill  +sing  
+4.                sizzle  +snap  splash  +splutter  sputter  +squeak  +squeal  +squelch  +swish  swoosh  
+4.                thrum  thud  thump  +thunder  thunk  tick  ting  tinkle  toll  toot  
+4.                +trill  +trumpet  twang  vroom  +wail  +wheeze  +whine  whir  whish  +whistle  
+4.                whoosh  zing  
+1.    ~time_event_verbs (19 / 1) 
+2.        ensue  
+2.        ~event_verbs (9) 
+3.            ~happen (5) 
+4.                come_about  happen  occur  take_place  transpire  
+3.            ~repeat (4) 
+4.                cycle  redo  reenact  repeat-v  
+2.        ~time_delay (6) 
+3.            delay  hesitate  postpone  procrastinate  stall  tarry  
+2.        ~time_passage (3) 
+3.            bite_the_dust  elapse  lapse  
+1.    ~weather_verbs (25) 
+2.        ~cold_weather (4) 
+3.            +freeze  +hail  sleet  snow  
+2.        ~hot_weather (2) 
+3.            swelter  +thaw  
+2.        ~nice_weather (2) 
+3.            clear  +shine  
+2.        ~rain (13) 
+3.            drizzle  fog  lightning  mist  mizzle  pelt  +pour  precipitate  rain  +shower  
+3.            sprinkle  storm  +thunder  
+2.        ~wind (4) 
+3.            +blow  gust  +howl  +roar  
